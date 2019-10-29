@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5683329B2357E067003E4ECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683329A2357E067003E4ECD /* AppDelegate.swift */; };
+		5683329D2357E067003E4ECD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5683329C2357E067003E4ECD /* ViewController.swift */; };
+		568332A02357E067003E4ECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5683329E2357E067003E4ECD /* Main.storyboard */; };
+		568332A22357E068003E4ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568332A12357E068003E4ECD /* Assets.xcassets */; };
+		568332A52357E068003E4ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568332A32357E068003E4ECD /* LaunchScreen.storyboard */; };
+		568332C92357E250003E4ECD /* WebLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568332C82357E250003E4ECD /* WebLoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		568332AC2357E068003E4ECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5683328F2357E066003E4ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568332962357E066003E4ECD;
+			remoteInfo = "Omlet Login";
+		};
+		568332B72357E068003E4ECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5683328F2357E066003E4ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568332962357E066003E4ECD;
+			remoteInfo = "Omlet Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		568332972357E066003E4ECD /* Omlet Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omlet Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5683329A2357E067003E4ECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5683329C2357E067003E4ECD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5683329F2357E067003E4ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		568332A12357E068003E4ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		568332A42357E068003E4ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568332A62357E068003E4ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568332AB2357E068003E4ECD /* Omlet LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omlet LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		568332B62357E068003E4ECD /* Omlet LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omlet LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		568332C82357E250003E4ECD /* WebLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568332942357E066003E4ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568332A82357E068003E4ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568332B32357E068003E4ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5683328E2357E066003E4ECD = {
+			isa = PBXGroup;
+			children = (
+				568332992357E066003E4ECD /* Omlet Login */,
+				568332982357E066003E4ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		568332982357E066003E4ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568332972357E066003E4ECD /* Omlet Login.app */,
+				568332AB2357E068003E4ECD /* Omlet LoginTests.xctest */,
+				568332B62357E068003E4ECD /* Omlet LoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568332992357E066003E4ECD /* Omlet Login */ = {
+			isa = PBXGroup;
+			children = (
+				5683329A2357E067003E4ECD /* AppDelegate.swift */,
+				5683329C2357E067003E4ECD /* ViewController.swift */,
+				5683329E2357E067003E4ECD /* Main.storyboard */,
+				568332A12357E068003E4ECD /* Assets.xcassets */,
+				568332A32357E068003E4ECD /* LaunchScreen.storyboard */,
+				568332A62357E068003E4ECD /* Info.plist */,
+				568332C82357E250003E4ECD /* WebLoginViewController.swift */,
+			);
+			path = "Omlet Login";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568332962357E066003E4ECD /* Omlet Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568332BF2357E068003E4ECD /* Build configuration list for PBXNativeTarget "Omlet Login" */;
+			buildPhases = (
+				568332932357E066003E4ECD /* Sources */,
+				568332942357E066003E4ECD /* Frameworks */,
+				568332952357E066003E4ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Omlet Login";
+			productName = "Omlet Login";
+			productReference = 568332972357E066003E4ECD /* Omlet Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		568332AA2357E068003E4ECD /* Omlet LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568332C22357E068003E4ECD /* Build configuration list for PBXNativeTarget "Omlet LoginTests" */;
+			buildPhases = (
+				568332A72357E068003E4ECD /* Sources */,
+				568332A82357E068003E4ECD /* Frameworks */,
+				568332A92357E068003E4ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568332AD2357E068003E4ECD /* PBXTargetDependency */,
+			);
+			name = "Omlet LoginTests";
+			productName = "Omlet LoginTests";
+			productReference = 568332AB2357E068003E4ECD /* Omlet LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		568332B52357E068003E4ECD /* Omlet LoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568332C52357E068003E4ECD /* Build configuration list for PBXNativeTarget "Omlet LoginUITests" */;
+			buildPhases = (
+				568332B22357E068003E4ECD /* Sources */,
+				568332B32357E068003E4ECD /* Frameworks */,
+				568332B42357E068003E4ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568332B82357E068003E4ECD /* PBXTargetDependency */,
+			);
+			name = "Omlet LoginUITests";
+			productName = "Omlet LoginUITests";
+			productReference = 568332B62357E068003E4ECD /* Omlet LoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5683328F2357E066003E4ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Ian Vo";
+				TargetAttributes = {
+					568332962357E066003E4ECD = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					568332AA2357E068003E4ECD = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 568332962357E066003E4ECD;
+					};
+					568332B52357E068003E4ECD = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 568332962357E066003E4ECD;
+					};
+				};
+			};
+			buildConfigurationList = 568332922357E066003E4ECD /* Build configuration list for PBXProject "Omlet Login" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5683328E2357E066003E4ECD;
+			productRefGroup = 568332982357E066003E4ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568332962357E066003E4ECD /* Omlet Login */,
+				568332AA2357E068003E4ECD /* Omlet LoginTests */,
+				568332B52357E068003E4ECD /* Omlet LoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568332952357E066003E4ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568332A52357E068003E4ECD /* LaunchScreen.storyboard in Resources */,
+				568332A22357E068003E4ECD /* Assets.xcassets in Resources */,
+				568332A02357E067003E4ECD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568332A92357E068003E4ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568332B42357E068003E4ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568332932357E066003E4ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568332C92357E250003E4ECD /* WebLoginViewController.swift in Sources */,
+				5683329D2357E067003E4ECD /* ViewController.swift in Sources */,
+				5683329B2357E067003E4ECD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568332A72357E068003E4ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568332B22357E068003E4ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		568332AD2357E068003E4ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568332962357E066003E4ECD /* Omlet Login */;
+			targetProxy = 568332AC2357E068003E4ECD /* PBXContainerItemProxy */;
+		};
+		568332B82357E068003E4ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568332962357E066003E4ECD /* Omlet Login */;
+			targetProxy = 568332B72357E068003E4ECD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5683329E2357E067003E4ECD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5683329F2357E067003E4ECD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		568332A32357E068003E4ECD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568332A42357E068003E4ECD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		568332BD2357E068003E4ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		568332BE2357E068003E4ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		568332C02357E068003E4ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRH2M47WYB;
+				INFOPLIST_FILE = "Omlet Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Omlet-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		568332C12357E068003E4ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRH2M47WYB;
+				INFOPLIST_FILE = "Omlet Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Omlet-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		568332C32357E068003E4ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRH2M47WYB;
+				INFOPLIST_FILE = "Omlet LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Omlet-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omlet Login.app/Omlet Login";
+			};
+			name = Debug;
+		};
+		568332C42357E068003E4ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRH2M47WYB;
+				INFOPLIST_FILE = "Omlet LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Omlet-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omlet Login.app/Omlet Login";
+			};
+			name = Release;
+		};
+		568332C62357E068003E4ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRH2M47WYB;
+				INFOPLIST_FILE = "Omlet LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Omlet-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Omlet Login";
+			};
+			name = Debug;
+		};
+		568332C72357E068003E4ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRH2M47WYB;
+				INFOPLIST_FILE = "Omlet LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Omlet-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Omlet Login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568332922357E066003E4ECD /* Build configuration list for PBXProject "Omlet Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568332BD2357E068003E4ECD /* Debug */,
+				568332BE2357E068003E4ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568332BF2357E068003E4ECD /* Build configuration list for PBXNativeTarget "Omlet Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568332C02357E068003E4ECD /* Debug */,
+				568332C12357E068003E4ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568332C22357E068003E4ECD /* Build configuration list for PBXNativeTarget "Omlet LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568332C32357E068003E4ECD /* Debug */,
+				568332C42357E068003E4ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568332C52357E068003E4ECD /* Build configuration list for PBXNativeTarget "Omlet LoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568332C62357E068003E4ECD /* Debug */,
+				568332C72357E068003E4ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5683328F2357E066003E4ECD /* Project object */;
+}
